@@ -16,5 +16,5 @@
         "ZofVlc" : "lib/ZofVlc.pm6"
     },
     "authors"       : ["Zoffix Znet"],
-    "support"       : {"source"   : "https://github.com/zoffixznet/perl6-WWW.git"}
+    "support"       : {"source"   : "https://github.com/zoffixznet/ZofVlc.git"}
 }
