@@ -1,0 +1,20 @@
+{
+    "perl"         : "6.c",
+    "name"         : "ZofVlc",
+    "license"      : "Artistic-2.0",
+    "version"      : "1.001001",
+    "description"  : "An app for controlling VLC media player on RaspberryPi",
+    "tags"         : [ "media" ],
+    "depends"      : [
+        "WWW::vlc::Remote",
+        "GTK::Simple"
+    ],
+    "test-depends" : [
+        "Test"
+    ],
+    "provides"     : {
+        "ZofVlc" : "lib/ZofVlc.pm6"
+    },
+    "authors"       : ["Zoffix Znet"],
+    "support"       : {"source"   : "https://github.com/zoffixznet/perl6-WWW.git"}
+}
